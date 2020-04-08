@@ -21,7 +21,10 @@ class Weather extends Component {
           description: data.current.weather_descriptions[0],
           temp: data.current.temperature,
         })
-      );
+      )
+      .catch((err) => {
+        console.log(err);
+      });
   }
 
   render() {

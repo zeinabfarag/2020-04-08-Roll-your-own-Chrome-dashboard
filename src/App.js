@@ -8,9 +8,11 @@ class App extends Component {
   };
 
   componentDidMount() {
-    fetch(
-      "https://source.unsplash.com/1600x900/?nature,background"
-    ).then((res) => this.setState({ background: res.url }));
+    fetch("https://source.unsplash.com/1600x900/?nature,background")
+      .then((res) => this.setState({ background: res.url }))
+      .catch((err) => {
+        console.log(err);
+      });
   }
 
   render() {
