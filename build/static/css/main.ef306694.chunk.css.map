@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,WAAY,CACZ,UAAW,CACX,MAAO,CACP,KAAM,CACN,eAAgB,CAChB,cACF","file":"main.ef306694.chunk.css","sourcesContent":["#app {\n  height: 100%;\n  width: 100%;\n  left: 0;\n  top: 0;\n  overflow: hidden;\n  position: fixed;\n}\n"]}

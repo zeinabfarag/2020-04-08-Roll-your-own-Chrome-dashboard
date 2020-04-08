@@ -6,3 +6,11 @@
   overflow: hidden;
   position: fixed;
 }
+
+#weather {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  padding: 2%;
+  background-color: rgb(243, 233, 233);
+}
