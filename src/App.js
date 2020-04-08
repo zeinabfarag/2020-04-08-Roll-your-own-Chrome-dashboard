@@ -13,13 +13,11 @@ class App extends Component {
   }
 
   render() {
-    const style = {
-      backgroundImage: "url(" + this.state.background + ")",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "cover",
-    };
-    return <div style={style} id="app"></div>;
+    return (
+      <div id="app">
+        <img src={this.state.background} />
+      </div>
+    );
   }
 }
 
